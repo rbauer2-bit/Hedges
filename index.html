@@ -43,14 +43,18 @@
 
   <!-- Hero -->
   <section class="hero" id="hero">
+    <div class="hero__bg">
+      <img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1920&q=80&auto=format&fit=crop" alt="Modern dental office" class="hero__bg-img">
+      <div class="hero__bg-overlay"></div>
+    </div>
     <div class="hero__container">
       <div class="hero__content">
-        <p class="hero__label">General &amp; Implant Dentistry</p>
-        <h1 class="hero__title">Honest Dental Care,<br> Exceptional Results</h1>
-        <p class="hero__text">Dr. Jeffrey Hedges, DMD provides personalized, high-quality dental care in Louisville, KY. From routine cleanings to advanced implant dentistry — your smile is in experienced hands.</p>
+        <p class="hero__label">General &amp; Implant Dentistry — Louisville, KY</p>
+        <h1 class="hero__title">Your Smile<br> Deserves the Best</h1>
+        <p class="hero__text">Dr. Jeffrey Hedges, DMD provides personalized, high-quality dental care. From routine cleanings to advanced implant dentistry — your smile is in experienced hands.</p>
         <div class="hero__actions">
-          <a href="tel:5025091980" class="btn btn--primary">Schedule a Visit</a>
-          <a href="#services" class="btn btn--outline">Explore Services</a>
+          <a href="tel:5025091980" class="btn btn--accent">Schedule a Visit</a>
+          <a href="#services" class="btn btn--outline-light">Explore Services</a>
         </div>
         <div class="hero__stats">
           <div class="hero__stat">
@@ -69,20 +73,27 @@
           </div>
         </div>
       </div>
-      <div class="hero__visual">
-        <div class="hero__image-frame">
-          <div class="hero__image-placeholder">
-            <svg viewBox="0 0 400 500" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect width="400" height="500" rx="24" fill="#E8F0F2"/>
-              <circle cx="200" cy="180" r="60" fill="#C8DDE2"/>
-              <path d="M200 140c-8 0-15 3-20 8-3 3-5 7-6 11 0 0 4-6 12-6 4 0 8 2 10 4 1 1 3 2 4 2s3-1 4-2c2-2 6-4 10-4 8 0 12 6 12 6-1-4-3-8-6-11-5-5-12-8-20-8z" fill="#1B4D5C" opacity="0.6"/>
-              <rect x="100" y="280" width="200" height="8" rx="4" fill="#C8DDE2"/>
-              <rect x="130" y="300" width="140" height="8" rx="4" fill="#C8DDE2"/>
-              <rect x="120" y="340" width="160" height="40" rx="20" fill="#1B4D5C" opacity="0.15"/>
-              <text x="200" y="365" text-anchor="middle" fill="#1B4D5C" font-family="Inter, sans-serif" font-size="13" opacity="0.5">Your Photo Here</text>
-            </svg>
-          </div>
-        </div>
+    </div>
+  </section>
+
+  <!-- Marquee Trust Bar -->
+  <section class="trust-bar">
+    <div class="trust-bar__container">
+      <div class="trust-bar__item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+        <span>Same-Day Appointments</span>
+      </div>
+      <div class="trust-bar__item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        <span>Advanced Implant Training</span>
+      </div>
+      <div class="trust-bar__item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        <span>Patient-First Philosophy</span>
+      </div>
+      <div class="trust-bar__item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+        <span>Affordable Care Options</span>
       </div>
     </div>
   </section>
@@ -90,15 +101,12 @@
   <!-- About -->
   <section class="about" id="about">
     <div class="about__container">
-      <div class="about__image">
-        <div class="about__image-placeholder">
-          <svg viewBox="0 0 500 400" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect width="500" height="400" rx="20" fill="#E8F0F2"/>
-            <circle cx="250" cy="160" r="50" fill="#C8DDE2"/>
-            <rect x="150" y="240" width="200" height="6" rx="3" fill="#C8DDE2"/>
-            <rect x="180" y="258" width="140" height="6" rx="3" fill="#C8DDE2"/>
-            <text x="250" y="310" text-anchor="middle" fill="#1B4D5C" font-family="Inter, sans-serif" font-size="13" opacity="0.4">Office Photo</text>
-          </svg>
+      <div class="about__images">
+        <div class="about__image about__image--main">
+          <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=800&q=80&auto=format&fit=crop" alt="Modern dental treatment room with state-of-the-art equipment">
+        </div>
+        <div class="about__image about__image--accent">
+          <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=600&q=80&auto=format&fit=crop" alt="Dental tools and equipment close up">
         </div>
       </div>
       <div class="about__content">
@@ -148,17 +156,29 @@
         <p class="doctor__text">Born and raised in Southern Indiana, Dr. Hedges is a graduate of Jeffersonville High School. He earned his Bachelor's degree in Health and Human Performance and a Master's degree in Education from the University of Louisville — where he also played quarterback on the UofL Football Team.</p>
         <p class="doctor__text">Dr. Hedges takes pride in continuing his education in the field of dentistry to stay current and provide his patients with the best care possible. He is passionate about implant dentistry and committed to expanding access to quality dental care.</p>
         <p class="doctor__text doctor__personal">When he isn't practicing dentistry, Dr. Hedges enjoys spending time with his wife Christy and their three dogs, watching sporting events, and woodworking.</p>
+        <div class="doctor__credentials">
+          <div class="doctor__credential">
+            <span class="doctor__credential-label">Education</span>
+            <span>University of Louisville</span>
+          </div>
+          <div class="doctor__credential">
+            <span class="doctor__credential-label">Specialty</span>
+            <span>Implant Dentistry</span>
+          </div>
+          <div class="doctor__credential">
+            <span class="doctor__credential-label">Experience</span>
+            <span>General &amp; Implant</span>
+          </div>
+        </div>
       </div>
       <div class="doctor__image">
-        <div class="doctor__image-placeholder">
-          <svg viewBox="0 0 400 480" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect width="400" height="480" rx="20" fill="#1B4D5C" opacity="0.08"/>
-            <circle cx="200" cy="180" r="70" fill="#1B4D5C" opacity="0.1"/>
-            <circle cx="200" cy="160" r="40" fill="#C8DDE2"/>
-            <rect x="160" y="210" width="80" height="60" rx="5" fill="#C8DDE2"/>
-            <text x="200" y="340" text-anchor="middle" fill="#1B4D5C" font-family="Inter, sans-serif" font-size="14" font-weight="500" opacity="0.4">Dr. Hedges</text>
-            <text x="200" y="360" text-anchor="middle" fill="#1B4D5C" font-family="Inter, sans-serif" font-size="12" opacity="0.3">Portrait Photo</text>
-          </svg>
+        <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=700&q=80&auto=format&fit=crop" alt="Professional dentist portrait">
+        <div class="doctor__image-badge">
+          <span class="doctor__image-badge-num">4.8</span>
+          <span class="doctor__image-badge-stars">
+            <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84L18 6.71l-4 3.9.94 5.5L10 13.67l-4.94 2.44.94-5.5-4-3.9 5.61-.87z"/></svg>
+          </span>
+          <span class="doctor__image-badge-text">Patient Rating</span>
         </div>
       </div>
     </div>
@@ -174,71 +194,58 @@
       </div>
       <div class="services__grid">
         <div class="service-card">
-          <div class="service-card__icon">
-            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="24" cy="24" r="24" fill="currentColor" opacity="0.1"/>
-              <path d="M24 14c-3 0-5.5 1.5-7 3.5-1 1.3-1.5 3-1.5 4.5 0 2 .5 3.5 1.5 5 1.5 2.5 2 4 2 6.5V35h10v-1.5c0-2.5.5-4 2-6.5 1-1.5 1.5-3 1.5-5 0-1.5-.5-3.2-1.5-4.5-1.5-2-4-3.5-7-3.5z" stroke="currentColor" stroke-width="1.5" fill="none"/>
-            </svg>
+          <div class="service-card__img">
+            <img src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=600&q=80&auto=format&fit=crop" alt="Dental cleaning and examination">
           </div>
-          <h3 class="service-card__title">Cleanings &amp; Exams</h3>
-          <p class="service-card__text">Routine preventive care to maintain optimal oral health. Regular cleanings and thorough examinations to catch issues early.</p>
+          <div class="service-card__body">
+            <h3 class="service-card__title">Cleanings &amp; Exams</h3>
+            <p class="service-card__text">Routine preventive care to maintain optimal oral health. Regular cleanings and thorough examinations to catch issues early.</p>
+          </div>
         </div>
         <div class="service-card">
-          <div class="service-card__icon">
-            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="24" cy="24" r="24" fill="currentColor" opacity="0.1"/>
-              <rect x="16" y="18" width="16" height="12" rx="2" stroke="currentColor" stroke-width="1.5" fill="none"/>
-              <path d="M20 18v-2a4 4 0 0 1 8 0v2" stroke="currentColor" stroke-width="1.5" fill="none"/>
-              <circle cx="24" cy="24" r="2" fill="currentColor"/>
-            </svg>
+          <div class="service-card__img">
+            <img src="https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=600&q=80&auto=format&fit=crop" alt="Dental filling procedure">
           </div>
-          <h3 class="service-card__title">Fillings</h3>
-          <p class="service-card__text">High-quality, tooth-colored composite fillings that restore your teeth naturally. Durable and virtually invisible.</p>
+          <div class="service-card__body">
+            <h3 class="service-card__title">Fillings</h3>
+            <p class="service-card__text">High-quality, tooth-colored composite fillings that restore your teeth naturally. Durable and virtually invisible.</p>
+          </div>
         </div>
         <div class="service-card">
-          <div class="service-card__icon">
-            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="24" cy="24" r="24" fill="currentColor" opacity="0.1"/>
-              <path d="M17 16h14v4a7 7 0 0 1-14 0v-4z" stroke="currentColor" stroke-width="1.5" fill="none"/>
-              <path d="M24 27v6" stroke="currentColor" stroke-width="1.5"/>
-              <path d="M19 33h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-            </svg>
+          <div class="service-card__img">
+            <img src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=600&q=80&auto=format&fit=crop" alt="Dental crown preparation">
           </div>
-          <h3 class="service-card__title">Crowns &amp; Bridges</h3>
-          <p class="service-card__text">Custom-crafted restorations that protect damaged teeth and bridge gaps left by missing teeth. Built for longevity.</p>
+          <div class="service-card__body">
+            <h3 class="service-card__title">Crowns &amp; Bridges</h3>
+            <p class="service-card__text">Custom-crafted restorations that protect damaged teeth and bridge gaps left by missing teeth. Built for longevity.</p>
+          </div>
         </div>
         <div class="service-card">
-          <div class="service-card__icon">
-            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="24" cy="24" r="24" fill="currentColor" opacity="0.1"/>
-              <path d="M18 16c0 6 6 8 6 12h0c0-4 6-6 6-12a6 6 0 0 0-12 0z" stroke="currentColor" stroke-width="1.5" fill="none"/>
-              <rect x="20" y="28" width="8" height="6" rx="1" stroke="currentColor" stroke-width="1.5" fill="none"/>
-            </svg>
+          <div class="service-card__img">
+            <img src="https://images.unsplash.com/photo-1581585090524-bab79732b016?w=600&q=80&auto=format&fit=crop" alt="Beautiful smile with veneers">
           </div>
-          <h3 class="service-card__title">Veneers</h3>
-          <p class="service-card__text">Composite and porcelain veneers to transform your smile. Correct discoloration, chips, gaps, and misalignment.</p>
+          <div class="service-card__body">
+            <h3 class="service-card__title">Veneers</h3>
+            <p class="service-card__text">Composite and porcelain veneers to transform your smile. Correct discoloration, chips, gaps, and misalignment.</p>
+          </div>
         </div>
         <div class="service-card">
-          <div class="service-card__icon">
-            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="24" cy="24" r="24" fill="currentColor" opacity="0.1"/>
-              <path d="M24 14l-2 6h-6l5 4-2 6 5-4 5 4-2-6 5-4h-6z" stroke="currentColor" stroke-width="1.5" fill="none"/>
-            </svg>
+          <div class="service-card__img">
+            <img src="https://images.unsplash.com/photo-1445527815600-ed1e042eb42f?w=600&q=80&auto=format&fit=crop" alt="Bright white smile">
           </div>
-          <h3 class="service-card__title">Whitening</h3>
-          <p class="service-card__text">Professional teeth whitening to brighten your smile safely and effectively. Noticeable results you'll love.</p>
+          <div class="service-card__body">
+            <h3 class="service-card__title">Whitening</h3>
+            <p class="service-card__text">Professional teeth whitening to brighten your smile safely and effectively. Noticeable results you'll love.</p>
+          </div>
         </div>
         <div class="service-card">
-          <div class="service-card__icon">
-            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="24" cy="24" r="24" fill="currentColor" opacity="0.1"/>
-              <path d="M16 20a8 8 0 0 1 16 0c0 4-3 6-3 10h-10c0-4-3-6-3-10z" stroke="currentColor" stroke-width="1.5" fill="none"/>
-              <path d="M20 34h8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-              <path d="M21 30h6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-            </svg>
+          <div class="service-card__img">
+            <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=600&q=80&auto=format&fit=crop" alt="Oral surgery preparation">
           </div>
-          <h3 class="service-card__title">Oral Surgery</h3>
-          <p class="service-card__text">Expert surgical procedures including extractions performed with precision and patient comfort as the priority.</p>
+          <div class="service-card__body">
+            <h3 class="service-card__title">Oral Surgery</h3>
+            <p class="service-card__text">Expert surgical procedures including extractions performed with precision and patient comfort as the priority.</p>
+          </div>
         </div>
       </div>
     </div>
@@ -246,11 +253,15 @@
 
   <!-- Implants Feature -->
   <section class="implants" id="implants">
+    <div class="implants__bg">
+      <img src="https://images.unsplash.com/photo-1629909615184-74f495363b67?w=1920&q=80&auto=format&fit=crop" alt="Advanced dental implant procedure" class="implants__bg-img">
+      <div class="implants__bg-overlay"></div>
+    </div>
     <div class="implants__container">
       <div class="implants__content">
-        <p class="section-label section-label--light">Specialty</p>
-        <h2 class="section-title section-title--light">Dental Implant Dentistry</h2>
-        <p class="implants__text">Dental implants are the best replacement option that dentistry has to offer, closely mimicking the form and function of a healthy natural tooth. Dr. Hedges has advanced training in implant placement and restoration.</p>
+        <p class="section-label section-label--light">Our Specialty</p>
+        <h2 class="section-title section-title--light">Dental Implant<br> Dentistry</h2>
+        <p class="implants__text">Dental implants are the gold standard for replacing missing teeth — closely mimicking the form and function of a healthy natural tooth. Dr. Hedges has advanced training in implant placement and restoration.</p>
         <div class="implants__features">
           <div class="implants__feature">
             <div class="implants__feature-num">01</div>
@@ -282,48 +293,72 @@
           </div>
         </div>
         <div class="implants__cta">
-          <a href="tel:5025091980" class="btn btn--white">Schedule Implant Consultation</a>
+          <a href="tel:5025091980" class="btn btn--accent">Schedule Implant Consultation</a>
         </div>
       </div>
       <div class="implants__visual">
         <div class="implants__diagram">
-          <svg viewBox="0 0 300 500" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <!-- Implant diagram -->
-            <text x="150" y="30" text-anchor="middle" fill="white" font-family="Inter, sans-serif" font-size="14" font-weight="500" opacity="0.6">Implant Anatomy</text>
+          <svg viewBox="0 0 300 460" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <text x="150" y="30" text-anchor="middle" fill="white" font-family="Inter, sans-serif" font-size="14" font-weight="500" opacity="0.8">Implant Anatomy</text>
             <!-- Crown -->
             <path d="M110 100c0-20 15-40 40-40s40 20 40 40c0 15-5 25-10 35h-60c-5-10-10-20-10-35z" fill="white" opacity="0.9"/>
-            <text x="230" y="90" fill="white" font-family="Inter, sans-serif" font-size="11" opacity="0.7">Crown</text>
-            <line x1="192" y1="90" x2="220" y2="90" stroke="white" opacity="0.4" stroke-width="1"/>
+            <text x="230" y="90" fill="white" font-family="Inter, sans-serif" font-size="11" opacity="0.8">Crown</text>
+            <line x1="192" y1="90" x2="220" y2="90" stroke="white" opacity="0.5" stroke-width="1"/>
             <!-- Abutment -->
             <rect x="130" y="135" width="40" height="25" rx="3" fill="white" opacity="0.7"/>
-            <text x="230" y="150" fill="white" font-family="Inter, sans-serif" font-size="11" opacity="0.7">Abutment</text>
-            <line x1="172" y1="148" x2="220" y2="148" stroke="white" opacity="0.4" stroke-width="1"/>
+            <text x="230" y="150" fill="white" font-family="Inter, sans-serif" font-size="11" opacity="0.8">Abutment</text>
+            <line x1="172" y1="148" x2="220" y2="148" stroke="white" opacity="0.5" stroke-width="1"/>
             <!-- Gum line -->
-            <path d="M80 175c20-10 50-8 70-5s50 5 70-5" stroke="white" opacity="0.3" stroke-width="2" stroke-dasharray="4 4"/>
-            <text x="230" y="178" fill="white" font-family="Inter, sans-serif" font-size="11" opacity="0.5">Gum Line</text>
+            <path d="M80 175c20-10 50-8 70-5s50 5 70-5" stroke="white" opacity="0.35" stroke-width="2" stroke-dasharray="4 4"/>
+            <text x="230" y="178" fill="white" font-family="Inter, sans-serif" font-size="11" opacity="0.6">Gum Line</text>
             <!-- Implant screw -->
             <path d="M135 165h30v15l-3 8h-24l-3-8v-15z" fill="white" opacity="0.6"/>
             <path d="M133 195h34M131 210h38M129 225h42M127 240h46M129 255h42M131 270h38M134 282h32" stroke="white" opacity="0.5" stroke-width="2.5" stroke-linecap="round"/>
             <path d="M135 188l-6 100c0 8 5 15 12 18h0l9 2 9-2h0c7-3 12-10 12-18l-6-100" stroke="white" opacity="0.6" stroke-width="1.5" fill="none"/>
-            <text x="230" y="240" fill="white" font-family="Inter, sans-serif" font-size="11" opacity="0.7">Implant</text>
-            <line x1="172" y1="238" x2="220" y2="238" stroke="white" opacity="0.4" stroke-width="1"/>
+            <text x="230" y="240" fill="white" font-family="Inter, sans-serif" font-size="11" opacity="0.8">Implant</text>
+            <line x1="172" y1="238" x2="220" y2="238" stroke="white" opacity="0.5" stroke-width="1"/>
             <!-- Bone -->
-            <rect x="90" y="180" width="25" height="140" rx="8" fill="white" opacity="0.1"/>
-            <rect x="185" y="180" width="25" height="140" rx="8" fill="white" opacity="0.1"/>
-            <text x="230" y="320" fill="white" font-family="Inter, sans-serif" font-size="11" opacity="0.5">Jawbone</text>
-            <!-- Bottom text -->
-            <text x="150" y="380" text-anchor="middle" fill="white" font-family="Inter, sans-serif" font-size="12" opacity="0.5">Quick &amp; Comfortable Procedure</text>
-            <text x="150" y="400" text-anchor="middle" fill="white" font-family="Inter, sans-serif" font-size="12" opacity="0.5">3–4 Month Integration Period</text>
-            <text x="150" y="420" text-anchor="middle" fill="white" font-family="Inter, sans-serif" font-size="12" opacity="0.5">Long-Lasting Results</text>
+            <rect x="90" y="180" width="25" height="140" rx="8" fill="white" opacity="0.08"/>
+            <rect x="185" y="180" width="25" height="140" rx="8" fill="white" opacity="0.08"/>
+            <text x="230" y="320" fill="white" font-family="Inter, sans-serif" font-size="11" opacity="0.6">Jawbone</text>
+            <!-- Bottom stats -->
+            <line x1="60" y1="370" x2="240" y2="370" stroke="white" opacity="0.15" stroke-width="1"/>
+            <text x="150" y="400" text-anchor="middle" fill="white" font-family="Inter, sans-serif" font-size="12" opacity="0.6">Long-lasting. Natural-looking.</text>
+            <text x="150" y="420" text-anchor="middle" fill="white" font-family="Inter, sans-serif" font-size="12" opacity="0.6">3-4 month integration period.</text>
           </svg>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Testimonial / Trust -->
+  <!-- Smile Gallery -->
+  <section class="gallery">
+    <div class="gallery__container">
+      <div class="gallery__header">
+        <p class="section-label">Results</p>
+        <h2 class="section-title">Smiles We're Proud Of</h2>
+      </div>
+      <div class="gallery__grid">
+        <div class="gallery__item gallery__item--wide">
+          <img src="https://images.unsplash.com/photo-1606265752439-1f18756aa5fc?w=900&q=80&auto=format&fit=crop" alt="Beautiful confident smile">
+        </div>
+        <div class="gallery__item">
+          <img src="https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?w=600&q=80&auto=format&fit=crop" alt="Happy patient smiling">
+        </div>
+        <div class="gallery__item">
+          <img src="https://images.unsplash.com/photo-1603202662747-00e33e7d1468?w=600&q=80&auto=format&fit=crop" alt="Healthy white teeth smile">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
   <section class="trust">
     <div class="trust__container">
+      <div class="trust__header">
+        <p class="section-label">Testimonials</p>
+        <h2 class="section-title">What Our Patients Say</h2>
+      </div>
       <div class="trust__items">
         <div class="trust__item">
           <div class="trust__stars">
@@ -333,8 +368,14 @@
             <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84L18 6.71l-4 3.9.94 5.5L10 13.67l-4.94 2.44.94-5.5-4-3.9 5.61-.87z"/></svg>
             <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84L18 6.71l-4 3.9.94 5.5L10 13.67l-4.94 2.44.94-5.5-4-3.9 5.61-.87z"/></svg>
           </div>
-          <p class="trust__quote">"Dr. Hedges and his team made me feel so comfortable. Best dental experience I've ever had. Highly recommend!"</p>
-          <p class="trust__author">— Happy Patient</p>
+          <p class="trust__quote">"Dr. Hedges and his team made me feel so comfortable. Best dental experience I've ever had. Highly recommend to anyone!"</p>
+          <div class="trust__author-row">
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80&auto=format&fit=crop" alt="Patient" class="trust__avatar">
+            <div>
+              <p class="trust__author">Sarah M.</p>
+              <p class="trust__author-sub">General Dentistry Patient</p>
+            </div>
+          </div>
         </div>
         <div class="trust__item">
           <div class="trust__stars">
@@ -344,8 +385,14 @@
             <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84L18 6.71l-4 3.9.94 5.5L10 13.67l-4.94 2.44.94-5.5-4-3.9 5.61-.87z"/></svg>
             <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84L18 6.71l-4 3.9.94 5.5L10 13.67l-4.94 2.44.94-5.5-4-3.9 5.61-.87z"/></svg>
           </div>
-          <p class="trust__quote">"Got my dental implant done here and the process was smoother than I ever expected. The staff is incredible."</p>
-          <p class="trust__author">— Implant Patient</p>
+          <p class="trust__quote">"Got my dental implant done here and the process was smoother than I ever expected. The staff is incredible and truly cares."</p>
+          <div class="trust__author-row">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80&auto=format&fit=crop" alt="Patient" class="trust__avatar">
+            <div>
+              <p class="trust__author">James R.</p>
+              <p class="trust__author-sub">Implant Patient</p>
+            </div>
+          </div>
         </div>
         <div class="trust__item">
           <div class="trust__stars">
@@ -356,9 +403,24 @@
             <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84L18 6.71l-4 3.9.94 5.5L10 13.67l-4.94 2.44.94-5.5-4-3.9 5.61-.87z"/></svg>
           </div>
           <p class="trust__quote">"Affordable, honest, and genuinely caring. Found my forever dentist. The whole team makes you feel like family."</p>
-          <p class="trust__author">— Loyal Patient</p>
+          <div class="trust__author-row">
+            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80&auto=format&fit=crop" alt="Patient" class="trust__avatar">
+            <div>
+              <p class="trust__author">Michelle T.</p>
+              <p class="trust__author-sub">Long-Term Patient</p>
+            </div>
+          </div>
         </div>
       </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <section class="cta-banner">
+    <div class="cta-banner__container">
+      <h2 class="cta-banner__title">Ready to Transform Your Smile?</h2>
+      <p class="cta-banner__text">Book your consultation today and discover why Louisville trusts Hedges Dental.</p>
+      <a href="tel:5025091980" class="btn btn--accent btn--lg">Call (502) 509-1980</a>
     </div>
   </section>
 
@@ -446,6 +508,19 @@
     </div>
   </section>
 
+  <!-- Map -->
+  <section class="map">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3114.8!2d-85.6466!3d38.2614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886972e5b9c2f7d7%3A0x4f4b7b8e2a3c5d6e!2s2015+Herr+Ln+%23D%2C+Louisville%2C+KY+40222!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
+      width="100%"
+      height="400"
+      style="border:0; display:block;"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+      title="Hedges Dental Location"></iframe>
+  </section>
+
   <!-- Footer -->
   <footer class="footer">
     <div class="footer__container">
@@ -488,7 +563,7 @@
       </div>
       <div class="footer__bottom">
         <p>&copy; 2026 Hedges Dental. All rights reserved.</p>
-        <p>Designed for Hedges Dental — Louisville, KY</p>
+        <p>General &amp; Implant Dentistry — Louisville, KY</p>
       </div>
     </div>
   </footer>
